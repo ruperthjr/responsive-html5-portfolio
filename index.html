@@ -10,6 +10,10 @@
     <title>Ruperth Nyagesoa - Developer Portfolio</title>
     
     <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     
     <meta property="og:title" content="Ruperth Nyagesoa - Developer Portfolio">
     <meta property="og:description" content="Software Engineer specializing in AI/ML, full-stack development, and mobile applications">
@@ -17,10 +21,6 @@
     <meta property="og:url" content="https://ruperth.vercel.app">
     <meta property="og:image" content="https://ruperth.vercel.app/images/og-image.jpg">
     
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ruperth Nyagesoa - Developer Portfolio">
-    <meta name="twitter:description" content="Software Engineer specializing in AI/ML, full-stack development, and mobile applications">
-    <meta name="twitter:image" content="https://ruperth.vercel.app/images/twitter-card.jpg">
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -28,7 +28,6 @@
     <header role="banner">
         <h1>
             <a href="/" aria-label="Home - Ruperth Nyagesoa">
-                <abbr title="Ruperth Nyagesoa">RN</abbr>
                 <span>Ruperth Nyagesoa</span>
             </a>
         </h1>
@@ -60,28 +59,17 @@
                     <a href="#contact" class="cta-secondary">Get in Touch</a>
                 </div>
             </div>
-            <figure class="hero-image">
-                <img src="images/profile.jpg" 
-                     alt="Professional headshot of Ruperth Nyagesoa" 
-                     width="400" 
-                     height="400" 
-                     loading="eager">
-                <figcaption class="visually-hidden">Ruperth Nyagesoa - Developer</figcaption>
-            </figure>
         </section>
 
         <section id="about" aria-labelledby="about-heading">
             <h2 id="about-heading">About Me</h2>
             <div class="about-content">
-                <p>I am a passionate software engineer with experience in full-stack development, AI/ML, and mobile applications. Currently pursuing a BSc in Software Development at KCA University, I have worked as a Software Engineering Attachee at Kenya Forestry Research Institute (KEFRI), where I provided IT support and developed a React-based frontend for a course registration portal. I also completed a software engineering bootcamp at Moringa School and hold a Diploma in IT from JKUAT. I continuously expand my skills through certifications and hands-on projects.</p>
+                <p>I am software engineer with experience in full-stack development, AI/ML, and mobile applications. Currently pursuing a BSc in Software Development at KCA University,  I have completed a software engineering bootcamp at Moringa School and hold a Diploma in IT from JKUAT. I continuously expand my skills through certifications and hands-on projects.</p>
                 
-                <p>My expertise spans Flutter, React, SvelteKit, FastAPI, and integrating machine learning models. I am driven by creating solutions that address real-world challenges, such as cross-border trade digitization and social impact platforms.</p>
-                
+                <p>My expertise spans Flutter, React, SvelteKit, FastAPI, and integrating machine learning models.</p>
                 <aside class="experience-summary" aria-label="Experience highlights">
                     <h3>Key Achievements</h3>
                     <ul>
-                        <li>Developed responsive frontend application using React for course registration portal at KEFRI</li>
-                        <li>Provided comprehensive IT support, troubleshooting hardware/software issues and reducing ticket resolution time</li>
                         <li>Completed specialized bootcamp in full-stack development at Moringa School</li>
                         <li>Earned multiple certifications in JavaScript, Python, Flutter, and web development</li>
                     </ul>
@@ -102,14 +90,6 @@
                         </p>
                     </header>
                     
-                    <figure class="project-image">
-                        <img src="images/safari-trade.jpg" 
-                             alt="SAFARI TRADE platform concept for cross-border informal trade" 
-                             width="600" 
-                             height="400" 
-                             loading="lazy">
-                    </figure>
-                    
                     <div itemprop="description">
                         <p>Cross-border informal trade digitization platform addressing undocumented trade between Kenya, Uganda, Tanzania, and Rwanda. Features WhatsApp marketplace, AI customs automation, currency optimization, GPS tracking, blockchain reputation system, and multi-language support.</p>
                     </div>
@@ -122,20 +102,6 @@
                             <li>Redis</li>
                             <li>Blockchain</li>
                         </ul>
-                        <div class="project-links">
-                            <a href="#" 
-                               rel="noopener noreferrer" 
-                               target="_blank">
-                                View Code
-                                <span class="visually-hidden">for SAFARI TRADE (private repo)</span>
-                            </a>
-                            <a href="#" 
-                               rel="noopener noreferrer" 
-                               target="_blank">
-                                Live Demo
-                                <span class="visually-hidden">of SAFARI TRADE (in progress)</span>
-                            </a>
-                        </div>
                     </footer>
                 </article>
 
@@ -148,14 +114,6 @@
                             <span>Web / Frontend</span>
                         </p>
                     </header>
-                    
-                    <figure class="project-image">
-                        <img src="images/portfolio.jpg" 
-                             alt="Personal portfolio website screenshot showing dark mode" 
-                             width="600" 
-                             height="400" 
-                             loading="lazy">
-                    </figure>
                     
                     <div itemprop="description">
                         <p>Modern, responsive portfolio website built with SvelteKit featuring dark mode, blog functionality, and optimized performance.</p>
@@ -195,14 +153,6 @@
                         </p>
                     </header>
                     
-                    <figure class="project-image">
-                        <img src="images/meyousafe.jpg" 
-                             alt="MeYouSafe platform interface for reporting sexual harassment" 
-                             width="600" 
-                             height="400" 
-                             loading="lazy">
-                    </figure>
-                    
                     <div itemprop="description">
                         <p>A platform to facilitate reporting of sexual harassment in Kenya, providing a secure and anonymous channel for victims to seek help and document incidents.</p>
                     </div>
@@ -219,12 +169,6 @@
                                target="_blank">
                                 View Code
                                 <span class="visually-hidden">for MeYouSafe on GitHub</span>
-                            </a>
-                            <a href="#" 
-                               rel="noopener noreferrer" 
-                               target="_blank">
-                                Live Demo
-                                <span class="visually-hidden">of MeYouSafe (in progress)</span>
                             </a>
                         </div>
                     </footer>
