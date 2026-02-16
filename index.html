@@ -25,7 +25,7 @@
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
     
-    <header role="banner">
+    <header>
         <h1>
             <a href="/" aria-label="Home - Ruperth Nyagesoa">
                 <span>Ruperth Nyagesoa</span>
@@ -33,7 +33,7 @@
         </h1>
         
         <nav aria-label="Main navigation" id="main-navigation">
-            <ul role="list">
+            <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -181,7 +181,7 @@
             <div class="skills-categories">
                 <article class="skill-category">
                     <h3>Mobile & Frontend Development</h3>
-                    <ul role="list">
+                    <ul>
                         <li>Flutter & Dart</li>
                         <li>Riverpod</li>
                         <li>React & Next.js</li>
@@ -193,7 +193,7 @@
 
                 <article class="skill-category">
                     <h3>Backend & APIs</h3>
-                    <ul role="list">
+                    <ul>
                         <li>FastAPI / Flask / Django</li>
                         <li>Ruby on Rails</li>
                         <li>Express (Node.js)</li>
@@ -205,7 +205,7 @@
 
                 <article class="skill-category">
                     <h3>AI, ML & Data Analysis</h3>
-                    <ul role="list">
+                    <ul>
                         <li>LLM Fine-tuning (GPT, BERT, Gemma)</li>
                         <li>RAG Workflows & Vector Stores</li>
                         <li>TensorFlow / Scikit-learn</li>
@@ -216,7 +216,7 @@
 
                 <article class="skill-category">
                     <h3>DevOps & Tools</h3>
-                    <ul role="list">
+                    <ul>
                         <li>Docker</li>
                         <li>GitHub Actions / CI/CD</li>
                         <li>Git</li>
@@ -239,13 +239,12 @@
                 <div class="form-group">
                     <label for="name">
                         Name
-                        <abbr title="required" aria-label="required">*</abbr>
+                        <abbr title="required">*</abbr>
                     </label>
                     <input type="text" 
                            id="name" 
                            name="name" 
                            required 
-                           aria-required="true"
                            aria-describedby="name-error"
                            autocomplete="name">
                     <span id="name-error" class="error-message" role="alert" aria-live="polite"></span>
@@ -254,13 +253,12 @@
                 <div class="form-group">
                     <label for="email">
                         Email
-                        <abbr title="required" aria-label="required">*</abbr>
+                        <abbr title="required">*</abbr>
                     </label>
                     <input type="email" 
                            id="email" 
                            name="email" 
                            required 
-                           aria-required="true"
                            aria-describedby="email-error"
                            autocomplete="email">
                     <span id="email-error" class="error-message" role="alert" aria-live="polite"></span>
@@ -269,13 +267,12 @@
                 <div class="form-group">
                     <label for="subject">
                         Subject
-                        <abbr title="required" aria-label="required">*</abbr>
+                        <abbr title="required">*</abbr>
                     </label>
                     <input type="text" 
                            id="subject" 
                            name="subject" 
                            required 
-                           aria-required="true"
                            aria-describedby="subject-error">
                     <span id="subject-error" class="error-message" role="alert" aria-live="polite"></span>
                 </div>
@@ -283,7 +280,7 @@
                 <div class="form-group">
                     <label for="message">
                         Message
-                        <abbr title="required" aria-label="required">*</abbr>
+                        <abbr title="required">*</abbr>
                     </label>
                     <textarea id="message" 
                               name="message" 
@@ -301,7 +298,7 @@
             <div class="contact-methods">
                 <h3>Other Ways to Connect</h3>
                 <address>
-                    <ul role="list">
+                    <ul>
                         <li>
                             <a href="mailto:ruperthjr@gmail.com">ruperthjr@gmail.com</a>
                         </li>
@@ -322,7 +319,7 @@
         </section>
     </main>
 
-    <footer role="contentinfo">
+    <footer>
         <div class="footer-content">
             <p>&copy; <time datetime="2026">2026</time> Ruperth Nyagesoa. All rights reserved.</p>
         </div>

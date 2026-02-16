@@ -1,45 +1,52 @@
-# Responsive HTML5 Portfolio – Ruperth Nyagesoa
+# Responsive HTML5 Portfolio – Two‑Challenge Repository
 
-A semantic, accessible, and SEO-optimized portfolio website built with modern HTML5 best practices. This project showcases the work and skills of software engineer Ruperth Nyagesoa.
+This repository contains two challenges by Ruperth Nyagesoa. Each challenge demonstrates front‑end skills, from semantic HTML to responsive CSS.
 
-## Project Overview
+---
 
-This portfolio demonstrates advanced semantic HTML5 structure, accessibility, and SEO optimization. It serves as both a functional portfolio and a learning resource for web development fundamentals.
+## Challenge 1: Semantic HTML & Accessibility
 
-## Features
+**Objective:** Build a portfolio using only semantic HTML5, focusing on accessibility and SEO. No CSS or JavaScript—just structure and meaning.
 
-- Semantic HTML5 markup
-- WCAG 2.1 AA accessibility compliance
-- ARIA landmark roles
-- SEO-optimized with meta tags and structured data
-- Mobile-responsive design
-- Accessible forms with validation
-- Skip navigation for keyboard users
-- Logical heading hierarchy
+**Files:**
+- `index.html` – Semantic elements, ARIA landmarks, heading hierarchy, accessible form, skip link, meta tags, and Schema.org data
+- `CONCEPT1.md` – Guide to semantic HTML and accessibility
+- `semantic-choices.md` – Rationale for semantic markup choices
 
-## Projects Featured
+---
 
-- **SAFARI TRADE** – Cross-border informal trade digitization platform (Flutter, FastAPI, Blockchain)
-- **Personal Portfolio** – SvelteKit-based portfolio with dark mode (SvelteKit, TypeScript, Tailwind)
-- **MeYouSafe** – Social impact platform for reporting sexual harassment (React, FastAPI, PostgreSQL)
+## Challenge 2: CSS Styling & Responsive Design
 
-## Structure
+**Objective:** Style the HTML from Challenge 1 with modern CSS. Create a fully responsive, black‑and‑white theme (no images), maintaining accessibility and performance.
+
+**Files:**
+- `styles.css` – Custom properties, resets, mobile‑first design, Flexbox/Grid, transitions, utility classes
+- `index.html` – Now linked to the CSS file
+- `CONCEPT2.md` – Notes on CSS techniques and concepts
+- `favicon.png` – Site favicon
+
+**Design Notes:**
+- Black‑and‑white palette highlights typography and layout
+- Images removed for code clarity; CSS includes image container styles for future use
+- Google Fonts (`Inter`, `Poppins`) loaded in HTML
+
+---
+
+## Repository Structure
 
 ```
 responsive-html5-portfolio/
-├── index.html
-├── README.md
-├── CONCEPT.md
-├── validation/
-│   ├── w3c-validation.png
-│   └── accessibility-report.png
-├── images/
-│   ├── profile.jpg
-│   ├── safari-trade.jpg
-│   ├── portfolio.jpg
-│   └── meyousafe.jpg
-└── favicon.png
+├── index.html         # Semantic HTML, linked to styles.css
+├── styles.css         # Responsive CSS
+├── favicon.png        # Favicon
+├── CONCEPT1.md        # Semantic HTML guide
+├── CONCEPT2.md        # CSS concepts
+├── semantic-choices.md# Semantic markup rationale
+├── README.md          # This file
+└── LICENSE            # MIT license
 ```
+
+---
 
 ## Getting Started
 
@@ -48,88 +55,43 @@ responsive-html5-portfolio/
     git clone https://github.com/ruperthjr/responsive-html5-portfolio.git
     cd responsive-html5-portfolio
     ```
-2. Open `index.html` in your browser:
-    ```bash
-    # On macOS
-    open index.html
-    # Or use a local server
-    python -m http.server 8000
-    ```
-    Visit [http://localhost:8000](http://localhost:8000)
+2. Open `index.html` in your browser to view the styled portfolio:
+    - On macOS:
+      ```bash
+      open index.html
+      ```
+    - Or start a local server:
+      ```bash
+      python -m http.server 8000
+      ```
+      Visit [http://localhost:8000](http://localhost:8000)
 
-## Validation
+3. To view the unstyled HTML (Challenge 1), remove the `<link rel="stylesheet" href="styles.css">` line from `<head>`.
 
-### W3C HTML Validation
+---
 
-- Use [W3C Validator](https://validator.w3.org/)
-- Expected: No errors, document validates as HTML5
+## Validation & Testing
 
-### Accessibility Testing
+- **HTML:** W3C Validator – no errors
+- **CSS:** W3C CSS Validator – no errors
+- **Accessibility:** Lighthouse (Chrome DevTools) – score ≥95
+- **Responsiveness:** Test at various viewport widths
 
-- **WAVE**: [https://wave.webaim.org/](https://wave.webaim.org/)
-- **Lighthouse**: Chrome DevTools > Lighthouse tab > Run accessibility audit
-- Expected score: 95+
+---
 
-## Semantic Elements Used
+## Key Learning Resources
 
-- `<header>` – Page and section headers
-- `<nav>` – Primary navigation
-- `<main>` – Main content
-- `<section>` – Thematic sections
-- `<article>` – Project cards
-- `<aside>` – Experience highlights
-- `<footer>` – Page footer
-- `<figure>`, `<figcaption>` – Images with captions
-- `<time>` – Dates/timestamps
-- `<address>` – Contact info
+- `CONCEPT1.md` – Semantic HTML, ARIA, accessibility, SEO
+- `CONCEPT2.md` – CSS and advanced techniques
+- `semantic-choices.md` – HTML element choices explained
 
-## Accessibility Features
-
-- Skip navigation link
-- ARIA landmarks and labels
-- Keyboard navigation
-- Screen reader optimization
-- Semantic forms and error associations
-- Focus management
-- Alt text for images
-- Proper heading hierarchy
-
-## SEO Implementation
-
-- Descriptive title tags
-- Meta descriptions
-- Open Graph and Twitter Card tags
-- Schema.org structured data
-- Semantic headings
-- Internal linking
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Learning Resources
-
-See `CONCEPT.md` for details on:
-
-- Semantic HTML principles
-- ARIA implementation
-- Accessibility best practices
-- Form accessibility
-- SEO fundamentals
-
-## Next Steps
-
-- CSS styling (Challenge 2)
-- JavaScript interactivity (Challenge 3)
-- Backend integration
-- Content management system
+---
 
 ## License
 
 MIT License – free for learning and projects.
+
+---
 
 ## Author
 
@@ -137,9 +99,3 @@ Ruperth Nyagesoa – Software Engineer
 GitHub: [@ruperthjr](https://github.com/ruperthjr)  
 LinkedIn: [ruperth-nyagesoa](https://linkedin.com/in/ruperth-nyagesoa)  
 Portfolio: [ruperth.vercel.app](https://ruperth.vercel.app)
-
-## Acknowledgments
-
-- W3C for HTML5 and ARIA specs
-- WebAIM for accessibility guidelines
-- MDN Web Docs for documentation
